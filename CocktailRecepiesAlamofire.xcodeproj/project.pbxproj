@@ -9,21 +9,30 @@
 /* Begin PBXBuildFile section */
 		230E04A62829A96300BD95D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230E04A52829A96300BD95D0 /* AppDelegate.swift */; };
 		230E04A82829A96300BD95D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230E04A72829A96300BD95D0 /* SceneDelegate.swift */; };
-		230E04AA2829A96300BD95D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230E04A92829A96300BD95D0 /* ViewController.swift */; };
 		230E04AD2829A96300BD95D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230E04AB2829A96300BD95D0 /* Main.storyboard */; };
 		230E04AF2829A96400BD95D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 230E04AE2829A96400BD95D0 /* Assets.xcassets */; };
 		230E04B22829A96400BD95D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230E04B02829A96400BD95D0 /* LaunchScreen.storyboard */; };
+		230E04BB2829A97B00BD95D0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 230E04BA2829A97B00BD95D0 /* Alamofire */; };
+		230E04BE2829AA5F00BD95D0 /* Cocktail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230E04BD2829AA5F00BD95D0 /* Cocktail.swift */; };
+		230E04C02829AA8B00BD95D0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230E04BF2829AA8B00BD95D0 /* NetworkManager.swift */; };
+		230E04C22829AAE800BD95D0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230E04C12829AAE800BD95D0 /* TableViewController.swift */; };
+		230E04C42829AB5500BD95D0 /* DetailedInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230E04C32829AB5500BD95D0 /* DetailedInformation.swift */; };
+		2388D40C2829AC8400EC98DD /* MargaritaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2388D40B2829AC8400EC98DD /* MargaritaCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		230E04A22829A96300BD95D0 /* CocktailRecepiesAlamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocktailRecepiesAlamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		230E04A52829A96300BD95D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		230E04A72829A96300BD95D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		230E04A92829A96300BD95D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		230E04AC2829A96300BD95D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		230E04AE2829A96400BD95D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		230E04B12829A96400BD95D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		230E04B32829A96400BD95D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		230E04BD2829AA5F00BD95D0 /* Cocktail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cocktail.swift; sourceTree = "<group>"; };
+		230E04BF2829AA8B00BD95D0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		230E04C12829AAE800BD95D0 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		230E04C32829AB5500BD95D0 /* DetailedInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedInformation.swift; sourceTree = "<group>"; };
+		2388D40B2829AC8400EC98DD /* MargaritaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MargaritaCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				230E04BB2829A97B00BD95D0 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +66,59 @@
 		230E04A42829A96300BD95D0 /* CocktailRecepiesAlamofire */ = {
 			isa = PBXGroup;
 			children = (
-				230E04A52829A96300BD95D0 /* AppDelegate.swift */,
-				230E04A72829A96300BD95D0 /* SceneDelegate.swift */,
-				230E04A92829A96300BD95D0 /* ViewController.swift */,
-				230E04AB2829A96300BD95D0 /* Main.storyboard */,
-				230E04AE2829A96400BD95D0 /* Assets.xcassets */,
-				230E04B02829A96400BD95D0 /* LaunchScreen.storyboard */,
-				230E04B32829A96400BD95D0 /* Info.plist */,
+				23645F532829AE560066744B /* ViewControllers */,
+				230E04BC2829AA3400BD95D0 /* Model */,
+				23645F522829AE070066744B /* App */,
+				23645F512829ADEE0066744B /* StoryBoards */,
+				23645F502829ADCC0066744B /* NetworkManager */,
 			);
 			path = CocktailRecepiesAlamofire;
+			sourceTree = "<group>";
+		};
+		230E04BC2829AA3400BD95D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				230E04BD2829AA5F00BD95D0 /* Cocktail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		23645F502829ADCC0066744B /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				230E04BF2829AA8B00BD95D0 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		23645F512829ADEE0066744B /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				230E04B02829A96400BD95D0 /* LaunchScreen.storyboard */,
+				230E04AB2829A96300BD95D0 /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		23645F522829AE070066744B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				230E04AE2829A96400BD95D0 /* Assets.xcassets */,
+				230E04A52829A96300BD95D0 /* AppDelegate.swift */,
+				230E04A72829A96300BD95D0 /* SceneDelegate.swift */,
+				230E04B32829A96400BD95D0 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		23645F532829AE560066744B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				230E04C32829AB5500BD95D0 /* DetailedInformation.swift */,
+				2388D40B2829AC8400EC98DD /* MargaritaCell.swift */,
+				230E04C12829AAE800BD95D0 /* TableViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +137,9 @@
 			dependencies = (
 			);
 			name = CocktailRecepiesAlamofire;
+			packageProductDependencies = (
+				230E04BA2829A97B00BD95D0 /* Alamofire */,
+			);
 			productName = CocktailRecepiesAlamofire;
 			productReference = 230E04A22829A96300BD95D0 /* CocktailRecepiesAlamofire.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +168,9 @@
 				Base,
 			);
 			mainGroup = 230E04992829A96300BD95D0;
+			packageReferences = (
+				230E04B92829A97B00BD95D0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 230E04A32829A96300BD95D0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +198,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				230E04AA2829A96300BD95D0 /* ViewController.swift in Sources */,
+				230E04C22829AAE800BD95D0 /* TableViewController.swift in Sources */,
 				230E04A62829A96300BD95D0 /* AppDelegate.swift in Sources */,
+				230E04C42829AB5500BD95D0 /* DetailedInformation.swift in Sources */,
+				230E04C02829AA8B00BD95D0 /* NetworkManager.swift in Sources */,
 				230E04A82829A96300BD95D0 /* SceneDelegate.swift in Sources */,
+				2388D40C2829AC8400EC98DD /* MargaritaCell.swift in Sources */,
+				230E04BE2829AA5F00BD95D0 /* Cocktail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,10 +355,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9QPM2LT848;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CocktailRecepiesAlamofire/Info.plist;
+				INFOPLIST_FILE = CocktailRecepiesAlamofire/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +371,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,10 +384,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9QPM2LT848;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CocktailRecepiesAlamofire/Info.plist;
+				INFOPLIST_FILE = CocktailRecepiesAlamofire/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +400,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -360,6 +426,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		230E04B92829A97B00BD95D0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		230E04BA2829A97B00BD95D0 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 230E04B92829A97B00BD95D0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 230E049A2829A96300BD95D0 /* Project object */;
 }
