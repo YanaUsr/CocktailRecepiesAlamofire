@@ -40,8 +40,8 @@ class NetworkManager {
                 switch dataResponse.result {
                 case .success(let value):
                     let drink = Drink.getDrink(from: value)
-                    let margaritas = drink.drinks
-                    completion(.success(margaritas))
+                    let margaritas = drink?.drinks
+                    completion(.success(margaritas ?? []))
                 case .failure(let error):
                     print(error)
                     completion(.failure(.decodingError))
